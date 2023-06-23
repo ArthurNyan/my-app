@@ -1,16 +1,16 @@
 import Home from "@/components/screens/home/Home";
 import Header from "@/components/screens/layout/header/Header";
+import Meta from "@/components/seo/Meta";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 
 const CarPage: NextPage = () => {
 
-    const {asPath, pathname, replace, push} = useRouter()
-    console.log(asPath, pathname)
+    const {query} = useRouter()
     
-    return <div>
+    return <Meta title={`Car ${query.id}`}>
         <Header/>
-    </div>
+    </Meta>
 }
 
 export default CarPage;

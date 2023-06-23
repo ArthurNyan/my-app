@@ -10,7 +10,7 @@ const NotFaund: NextPage = () => {
     <Head>
         <title>Not Found</title>
     </Head>
-    <Layout>
+    <Layout title="Not Found">
         <Image src='/404.png' width={920} height={462} alt={"plp"} />
     </Layout>
     </>
