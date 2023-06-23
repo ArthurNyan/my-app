@@ -1,0 +1,16 @@
+.header {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+  margin: 8px;
+  text-align: center;
+}
+
+.header a:hover {
+  color: #283237d1;
+}
+
+.header .active {
+  margin: 8px;
+  color: rgb(44, 26, 144);
+}
